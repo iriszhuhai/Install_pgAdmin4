@@ -28,11 +28,11 @@ $ pip install  pgadmin4-1.4-py2.py3-none-any.whl -U psycopg2
 #### Config
 single-user mode
 ```
-$ echo "SERVER_MODE = False" >> ~/pgAdmin4/lib/python2.7/site-packages/pgadmin4/config_local.py
+$ echo "SERVER_MODE = False" >> ~/pgadmin4/lib/python2.7/site-packages/pgadmin4/config_local.py
 ```
 #### Start your pgAdmin
 ```
-$ python lib/python2.7/site-packages/pgadmin4/pgAdmin4.py
+$ python ~/pgadmin4/lib/python2.7/site-packages/pgadmin4/pgAdmin4.py
 ```
 It returns: 
 ....
